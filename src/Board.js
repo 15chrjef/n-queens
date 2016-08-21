@@ -170,7 +170,7 @@
       var flag = false;
       for(var i = index; i < this.rows()[index].length; i++){
         for(var j = 0; j < this.rows()[index].length; j++){
-          if(this.rows()[index][index] === 1){
+          if(this.rows()[j][i] === 1){
             counter ++;
           }
           if(counter >= 2){
